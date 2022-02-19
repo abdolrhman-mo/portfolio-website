@@ -68,6 +68,7 @@ h6 { font-size: 16px;}
 	background-color: var(--secondaryColor);
 	border-bottom:1px solid var(--borderColor);
 	overflow:auto;
+	padding: 0 0 100px 0
 }
 
 
