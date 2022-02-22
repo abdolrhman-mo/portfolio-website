@@ -289,7 +289,7 @@ h6 { font-size: 16px;}
 
 .about-wrapper{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-template-columns: repeat(1fr, minmax(320px, 1fr));
 	padding-bottom: 50px;
 	padding-top: 50px;
 	gap:100px;
@@ -302,10 +302,15 @@ h6 { font-size: 16px;}
 	background-color: var(--previewShadow);
 }
 
-.social-links{
+.soft-skills{
 	display: grid;
 	align-content: center;
 	text-align: center;
+}
+
+.soft-skills p {
+	line-height: 1px
+
 }
 
 #social_img{
